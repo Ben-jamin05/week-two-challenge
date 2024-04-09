@@ -11,7 +11,22 @@
 h1 {
     font-size: 32px;
     color: black;
+    padding: 2% 5% 2% 5%;
     
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    padding: 2% 5% 2% 5%;
+    border-right: 2px solid black;
+    
+}
+
+h3 {
+    font-size: 24px;
+    color: black;
+    padding: 2% 5% 2% 5%;
 }
 
 header {
@@ -31,71 +46,88 @@ header {
 }
 
 nav {
-    display: flex;
+    padding: 2%;
     align-items: center;
-    padding-right: 2%;
-    min-width: fit-content;
+    min-width: 50%;
 }
 
-nav ul li {
-    
+nav li {
     display: inline;
     position: relative;
     list-style: none;
     padding: 1%;
     font-size: 20px;
-    
+    float: left;
+}
+
+nav li a {
+    color: black;
 }
 
 nav ul {
     text-underline-offset: 10px;
-    color: black;
     padding: 2%;
+    display: inline;
 }
 
-filler {
+.filler {
     position: relative;
 }
-filler img{
+.filler img{
     width: 100%;
     height: 200px;
 }
 
-filler h2 {
+.filler h2 {
     font-size: 30px;
     position: absolute;
     bottom: 20px;
     right: 20px;
+    background-color: purple;
+    padding: 1%;
+    border: none;
 }
 
-about-me {
+#about-me {
     display: flex;
 
 }
 
-about-me h1 {
-    padding: 2% 5% 2% 5%;
-    
-}
 
-about-me p {
+#about-me p {
     padding: 5%;
 }
 
-work {
+#work {
     display: flex;
 
 }
 
-resume {
+
+#resume {
     display: flex;
 
 }
 
-contact-me {
+#contact-me {
     display: flex;
+    justify-content: space-around;
 
 }
+
+#contact-me ul {
+    display: flex;
+    min-width: 50%;
+    gap: 7%;
+    padding: 3%;
+}
+
+#contact-me li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
 
 section {
     background-color: rgb(203, 203, 203);
