@@ -88,6 +88,10 @@ nav ul {
     border: none;
 }
 
+section p {
+    text-indent: 40px;
+}
+
 #about-me {
     display: flex;
 
@@ -103,10 +107,32 @@ nav ul {
 
 }
 
+#big {
+    display: block;
+    padding-left: 5%;
+}
+
+#small{
+    width: 100%;
+
+}
+
+#big img {
+    width: 100%;
+}
+
+.projects {
+    display: inline;
+}
+
 
 #resume {
     display: flex;
 
+}
+
+#reslink {
+    padding: 2%;
 }
 
 #contact-me {
