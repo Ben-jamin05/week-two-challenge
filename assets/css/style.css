@@ -137,10 +137,12 @@ section p {
 
 #small img {
     width: 100%;
+    border: 5px solid black;
 }
 
 #big img {
     width: 100%;
+    border: 5px solid black;
 }
 
 .projects {
@@ -150,7 +152,6 @@ section p {
 
 #resume {
     display: flex;
-
 }
 
 #reslink {
